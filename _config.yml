@@ -16,7 +16,7 @@
 title: Stat 555
 description: An example course landing page
 author: SCF
-baseurl: '~' # the subpath of your site, e.g. /blog
+#baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://stat555.stat.berkeley.edu' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
