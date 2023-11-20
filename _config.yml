@@ -17,8 +17,8 @@ title: Stat 555
 tagline: A Jekyll template for course landing sites
 description: A modern, highly customizable, responsive Jekyll template for course websites, based on Just the Class
 author: SCF
-baseurl: '/course-overview' # the subpath of your site, e.g. /blog
-url: 'https://berkeley-scf.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/berkeley-stat555.github.io' # the subpath of your site, e.g. /blog
+url: 'https://berkeley-stat555.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 logo: 'resources/stat_bear.png'
 
