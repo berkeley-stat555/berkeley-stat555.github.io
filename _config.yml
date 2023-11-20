@@ -14,11 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Stat 555
-description: An example course landing page
+tagline: A Jekyll template for course landing sites
+description: A modern, highly customizable, responsive Jekyll template for course websites, based on Just the Class
 author: SCF
-#baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://stat555.stat.berkeley.edu' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/course-overview' # the subpath of your site, e.g. /blog
+url: 'https://berkeley-scf.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+logo: 'resources/stat_bear.png'
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.7.0
@@ -26,44 +28,44 @@ color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+#aux_links:
+#  Statistics Course Websites:
+#    - 'https://statistics.berkeley.edu/computing'
+#  Just the Class:
+#    - 'https://github.com/kevinlin1/just-the-class'
+#footer_content:
 
 # Collections for website data
-collections:
-  staffers:
-  modules:
-  schedules:
-  announcements:
+#collections:
+#  staffers:
+#  modules:
+#  schedules:
+#  announcements:
 # Default layouts for each collection type
-defaults:
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-      height: 300
-      subpath: '/assets/images/'
-      width: 300
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+#defaults:
+#  - scope:
+#      path: ''
+#      type: staffers
+#    values:
+#      layout: staffer
+#      height: 300
+#      subpath: '/assets/images/'
+#      width: 300
+#  - scope:
+#      path: ''
+#      type: modules
+#    values:
+#      layout: module
+#  - scope:
+#      path: ''
+#      type: schedules
+#    values:
+#      layout: schedule
+#  - scope:
+#      path: ''
+#      type: announcements
+#    values:
+#      layout: announcement
 
 compress_html:
   clippings: all
